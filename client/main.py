@@ -40,6 +40,6 @@ if __name__ == "__main__":
         addendum = ", %s" % profile["first_name"]
     mic.say("How can I be of service%s?" % addendum)
 
-    conversation = Conversation("JASPER", mic, profile)
+    conversation = Conversation("TOILET", mic, profile)
 
     conversation.handleForever()
