@@ -152,7 +152,7 @@ if __name__ == "__main__":
         Indexes the Spotify music library to dictionary_spotify.dic and languagemodel_spotify.lm
     """
 
-    musicmode = MusicMode("JASPER", None)
+    musicmode = MusicMode("TOILET", None)
     music = musicmode.music
 
     original = music.get_soup() + ["STOP", "CLOSE", "PLAY",
